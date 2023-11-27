@@ -1,4 +1,4 @@
-package com.mylinkedlist.app;
+package com.myproblemset.app;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 

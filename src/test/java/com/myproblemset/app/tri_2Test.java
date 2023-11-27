@@ -1,4 +1,4 @@
-package com.mylinkedlist.app;
+package com.myproblemset.app;
 import java.util.*;
 import static org.junit.Assert.*;
 import org.junit.Test;
