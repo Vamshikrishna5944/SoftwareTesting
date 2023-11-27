@@ -1,7 +1,5 @@
 package com.mylinkedlist.app;
 
-
-
 class TreeNode<T> {
     T data;
     TreeNode<T> left;

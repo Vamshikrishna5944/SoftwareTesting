@@ -48,5 +48,8 @@ public class rottenorangestest {
             {1, 1, 0, 0}
         };
         assertEquals(-1, ro.orangesRotting(array5));
+
+        int[][] array6 = null ;
+        assertEquals(0, ro.orangesRotting(array6));
     }
 }

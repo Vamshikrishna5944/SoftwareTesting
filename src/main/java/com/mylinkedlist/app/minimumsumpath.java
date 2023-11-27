@@ -31,4 +31,3 @@ public class minimumsumpath {
         return curSum;
     }
 }
-
