@@ -1,26 +1,20 @@
 package com.mylinkedlist.app;
 
 public class minimumsumpath {
-    
-    public static int minSumPath(int[][] grid) 
-    {
+
+    public static int minSumPath(int[][] grid) {
         int n = grid.length;
         int m = grid[0].length;
 
-        int minSum = minSumHelper(grid, 0, 0, n, m);
-
-        return minSum;
+        return minSumHelper(grid, 0, 0, n, m);
     }
 
-    public static int minSumHelper(int[][] grid, int i, int j, int n, int m) 
-    {
-        if (i >= n || j >= m) 
-        {
+    private static int minSumHelper(int[][] grid, int i, int j, int n, int m) {
+        if (i >= n || j >= m) {
             return Integer.MAX_VALUE;
         }
 
-        if (i == n - 1 && j == m - 1) 
-        {
+        if (i == n - 1 && j == m - 1) {
             return grid[i][j];
         }
 
@@ -31,3 +25,4 @@ public class minimumsumpath {
         return curSum;
     }
 }
+
